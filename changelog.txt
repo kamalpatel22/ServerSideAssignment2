@@ -1,0 +1,7 @@
+To meet the requirements of assignment 2, I made some adjustments to my assignment 1 file. Here are some of them:
+1. I'm utilising a database to store the product info rather than a json file.
+2. I'm using SQL queries to get the data from the database.
+3. The dynamic categories tab was made so that anytime a user added a new item with a new category type, it would automatically appear on the website.
+4. No matter how many items we have, only 7 data will be displayed on a single page thanks to the creation of dynamic next and previous buttons utilising SQL queries and php code.
+5. To prevent page reloading with each click of the add to cart and remove buttons, javascript and Ajax are used.
+6. Values for the Add to Cart button will be added to the session table and utilised to display the cart using ajax.
